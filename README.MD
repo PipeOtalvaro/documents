@@ -111,3 +111,9 @@ fun main() {
 | Andrés  | Otálvaro | 123456789 |
 | Felipe  | Otálvaro | 35168153  |
 | Adriana | Otálvaro | 98731213  |
+
+# Citas
+
+Esto es un texto referente a una cita:
+
+> (Otálvaro, 2021)
