@@ -46,3 +46,7 @@
 
 - [Google](http://www.google.com.co)
 - [index](index.html)
+
+# imágenes
+
+- ![Imagen](https://git-scm.com/images/logo@2x.png)
