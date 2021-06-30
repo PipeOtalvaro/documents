@@ -117,3 +117,17 @@ fun main() {
 Esto es un texto referente a una cita:
 
 > (Otálvaro, 2021)
+
+# Líneas divisoras
+
+Esto es un texto dividido por guiones
+
+---
+
+Texto dividido por asteriscos
+
+---
+
+Texto dividido por guiones bajos
+
+---
