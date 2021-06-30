@@ -50,3 +50,56 @@
 # imágenes
 
 - ![Imagen](https://git-scm.com/images/logo@2x.png)
+
+# Snipets
+
+Código en JSON
+
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+
+Código en kotlin
+
+```Kotlin
+import kotlinx.serialization.Serializable
+import kotlin.random.Random
+
+interface Building
+
+@Serializable
+class House(
+    private val rooms: Int? = 3,
+    val name: String = "Palace"
+) : Building {
+    var residents: Int = 4
+        get() {
+            println("Current residents: $field")
+            return field
+        }
+
+    fun burn(evacuation: (people: Int) -> Boolean) {
+        rooms ?: return
+        if (evacuation((0..residents).random()))
+            residents = 0
+    }
+}
+
+fun main() {
+    val house = House(name = "Skyscraper 1")
+    house.burn {
+        Random.nextBoolean()
+    }
+}
+```
