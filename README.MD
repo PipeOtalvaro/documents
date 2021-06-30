@@ -103,3 +103,11 @@ fun main() {
     }
 }
 ```
+
+# Tablas
+
+| Nombre  | Apellido | CC        |
+| ------- | -------- | --------- |
+| Andrés  | Otálvaro | 123456789 |
+| Felipe  | Otálvaro | 35168153  |
+| Adriana | Otálvaro | 98731213  |
