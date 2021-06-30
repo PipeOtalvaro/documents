@@ -1,3 +1,5 @@
+# Cabeceras
+
 # Cabecera H1
 
 ## Cabecera H2
@@ -10,6 +12,17 @@
 
 ###### Cabecera H6
 
+# Underlines
+
 ## Underline 1
 
 # Underline 2
+
+#Enfasis
+
+- _italica_
+- _italica_
+- **bold o strong**
+- **bold o strong**
+- ~~tachado~~
+- podemos combinar \*italico, **bold** o ~~tachado~~
