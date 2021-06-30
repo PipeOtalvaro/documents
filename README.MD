@@ -131,3 +131,11 @@ Texto dividido por asteriscos
 Texto dividido por guiones bajos
 
 ---
+
+# Saltos de línea
+
+Primer párrafo.
+
+Segundo párrafo
+
+Tercer párrafo
