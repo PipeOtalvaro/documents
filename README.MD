@@ -26,3 +26,18 @@
 - **bold o strong**
 - ~~tachado~~
 - podemos combinar \*italico, **bold** o ~~tachado~~
+
+# Listas
+
+## Ordenadas
+
+1. Ítem
+1. Ítem
+1. Ítem
+
+## Desordenadas
+
+- Ítem
+- Ítem
+- Ítem
+- Ítem
